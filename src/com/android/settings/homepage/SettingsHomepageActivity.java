@@ -70,8 +70,6 @@ public class SettingsHomepageActivity extends FragmentActivity {
 
         setHomepageContainerPaddingTop();
 
-        Context context = getApplicationContext();
-
         mUserManager = context.getSystemService(UserManager.class);
 
         final Toolbar toolbar = findViewById(R.id.search_action_bar);
